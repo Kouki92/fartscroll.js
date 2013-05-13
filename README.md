@@ -11,10 +11,13 @@ _Now with 100% less jQuery! (Sorry, jQuery, we still love you)_
 
 ```javascript
 // Fart every 400 pixels scrolled
-fartscroll(); 
+fartscroll();
 
 // Fart every 800 pixels scrolled
 fartscroll(800);
 ```
-    
+
 More info at [http://theonion.github.io/fartscroll.js/](http://theonion.github.io/fartscroll.js/).
+
+
+A new line!
