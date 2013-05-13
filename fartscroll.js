@@ -66,24 +66,14 @@ var fartscroll = (function () {
     }
   }
 
-  function getPlayer() {
-    var container = getContainer(), player
-      , players = container.getElementsByTagName("audio");
-
-    for (player in  players) {
-      if (player.currentTime === 0 || player.ended) {
-        return player;
-      }
-    }
-
-    player = document.createElement("audio");
-    container.appendChild(player);
-    return player;
-  };
+  function sayHello() {
+    alert("HELLO!!!");
+  }
 
   function getContainer() {
     var container = document.getElementById("fartscroll");
 
+    // This is so cool!
     if (container === null) {
       container = document.createElement("div");
       container.id = "fartscroll";
